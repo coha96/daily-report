@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout1}">
+
+
+<div layout:fragment="content" >
+    <h2 class="h4 mb-4">
+        <strong>보고서 목록 </strong>   <a th:href="@{'/'}" class="btn btn-dark ml-5">Home</a>
+    </h2>
+
+    <div>
+        <table class="table table-hover table-striped">
+            <colgroup>
+                <col width="10" />
+                <col width="20" />
+                <col width="30%"/>
+                <col width="40%"/>
+            </colgroup>
+            <thead>
+            <tr class="text-center">
+                <td>No.</td>
+                <td>Date</td>
+                <td>CATEGORY</td>
+                <td>PROGRAM/SYSTEM</td>
+            </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="dailyReport,data : ${dailyReportList}" class="text-center" th:data-reportId="${dailyReport.reportId}"  onclick="dailyReportsDetail(this)">
+                    <td>
+              [[${ (dailyReportList.totalElements - dailyReportList.numberOfElements)*dailyReportList.number + data.index+1    }]]
+                    </td>
+                    <td><div th:text="${#dates.format(dailyReport.reportDate, 'yyyy-MM-dd')}"></div></td>
+                    <td>  [[${dailyReport.category}]]</td>
+                    <td>  [[${dailyReport.programSystem}]]</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4" class="text-center">
+                    <div th:utext="${pagination}"></div>
+                </td>
+            </tr>
+
+            </tfoot>
+        </table>
+    </div>
+
+</div>
+</html>

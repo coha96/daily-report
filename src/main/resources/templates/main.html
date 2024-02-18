@@ -1,0 +1,31 @@
+<!--Thymeleaf 템플릿 엔진을 사용해 구성한 웹 페이지-->
+<!DOCTYPE html> <!--html5 문서 정의-->
+
+<!--Thymeleaf 템플릿, 레이아웃 기능을 사용할 수 있는 기능-->
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout1}">
+<!--Thymeleaf Layout Dialect를 사용하여 공통 레이아웃 (layouts/layout1)을 현재 페이지에 적용-->
+
+<!--메인 페이지 주요 내용 표시-->
+<div layout:fragment="content">
+
+  <p class="h2 mb-4"> <!-- p -> HTML 단락 / 제목 강조 표시-->
+    <strong>Daily Report</strong>
+  </p>
+
+  <!--공통 레이아웃을 사용하며, 메인 페이지의 주요 부분은 "Daily Report" 제목과 세 개의 버튼으로 구성-->
+  <!--th:href 속성을 사용하여 해당 경로로의 링크 제공-->
+  <div class="row">
+    <div class="col-2">
+      <a th:href="@{'/dailyReports/write'}" class="btn btn-lg btn-block btn-outline-dark">보고서 작성</a>
+    </div>
+    <div class="col-2">
+      <a th:href="@{'/dailyReports/list'}" class="btn btn-lg btn-block btn-outline-dark">보고서 목록</a>
+    </div>
+    <div class="col-2">
+      <a th:href="@{'/dailyReports/detail'}" class="btn btn-lg btn-block btn-outline-dark">보고서 상세 조회</a>
+    </div>
+  </div>
+
+</div>

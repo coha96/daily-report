@@ -1,0 +1,568 @@
+2024-02-12T13:03:00.634+09:00  WARN 23100 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h41m31s315ms90µs).
+2024-02-12T13:09:58.032+09:00  INFO 23100 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12T13:09:59.093+09:00  INFO 23100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-12T13:09:59.656+09:00  INFO 23100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-12T13:10:29.928+09:00  INFO 38616 --- [restartedMain] com.dailyReport.DailyReportApplication   : Starting DailyReportApplication using Java 17.0.7 with PID 38616 (C:\Users\subin\Desktop\daily-report\out\production\classes started by subin in C:\Users\subin\Desktop\daily-report)
+2024-02-12T13:10:29.939+09:00 DEBUG 38616 --- [restartedMain] com.dailyReport.DailyReportApplication   : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-12T13:10:29.944+09:00  INFO 38616 --- [restartedMain] com.dailyReport.DailyReportApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T13:10:30.794+09:00  INFO 38616 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\subin\.gradle\caches\modules-2\files-2.1\com.oracle.database.nls\orai18n\23.3.0.23.09\7ce248ac15b588e30627ba2585654bfb7ce27e9d\orai18n-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-mapping.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-utility.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-collation.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-translation.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-net.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-servlet.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-lcsd.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-tools.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/gdk_custom.jar
+2024-02-12T13:10:30.795+09:00  INFO 38616 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\subin\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-02-12T13:10:30.796+09:00  INFO 38616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-12T13:10:30.797+09:00  INFO 38616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-12T13:10:33.919+09:00  INFO 38616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-12T13:10:34.157+09:00  INFO 38616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 206 ms. Found 1 JPA repository interface.
+2024-02-12T13:10:37.249+09:00  INFO 38616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-02-12T13:10:37.295+09:00  INFO 38616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-12T13:10:37.297+09:00  INFO 38616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-12T13:10:37.589+09:00  INFO 38616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-12T13:10:37.590+09:00  INFO 38616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6792 ms
+2024-02-12T13:10:38.230+09:00  INFO 38616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-12T13:10:39.238+09:00  INFO 38616 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@788f203d
+2024-02-12T13:10:39.246+09:00  INFO 38616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-12T13:10:39.295+09:00  INFO 38616 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521/orcl'
+2024-02-12T13:10:39.826+09:00  INFO 38616 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-12T13:10:40.143+09:00  INFO 38616 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-12T13:10:40.300+09:00  INFO 38616 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-12T13:10:41.357+09:00  INFO 38616 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-12T13:10:42.012+09:00  WARN 38616 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-02-12T13:10:42.024+09:00  WARN 38616 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-12T13:10:43.434+09:00  INFO 38616 --- [restartedMain] p6spy                                    : #1707711043434 | took 74ms | statement | connection 2| url jdbc:oracle:thin:@localhost:1521/orcl
+select * from all_sequences
+select * from all_sequences;
+2024-02-12T13:10:46.357+09:00  INFO 38616 --- [restartedMain] p6spy                                    : #1707711046357 | took 111ms | statement | connection 3| url jdbc:oracle:thin:@localhost:1521/orcl
+create global temporary table HTE_daily_reports(rn_ number(10,0) not null, report_date timestamp(6), report_id number(19,0), category varchar2(100 char), program_system varchar2(200 char), source_path varchar2(500 char), description varchar2(1000 char), primary key (rn_)) on commit delete rows
+create global temporary table HTE_daily_reports(rn_ number(10,0) not null, report_date timestamp(6), report_id number(19,0), category varchar2(100 char), program_system varchar2(200 char), source_path varchar2(500 char), description varchar2(1000 char), primary key (rn_)) on commit delete rows;
+2024-02-12T13:10:46.849+09:00  INFO 38616 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-12T13:10:46.932+09:00  INFO 38616 --- [restartedMain] p6spy                                    : #1707711046932 | took 4ms | statement | connection 4| url jdbc:oracle:thin:@localhost:1521/orcl
+select * from all_sequences
+select * from all_sequences;
+2024-02-12T13:10:48.795+09:00  INFO 38616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12T13:10:49.818+09:00  INFO 38616 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-12T13:10:51.548+09:00  WARN 38616 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c45d54e4-1ddb-4ba8-8e3c-cde80fc18106
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-02-12T13:10:52.482+09:00  INFO 38616 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@85e4958, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46d2147d, org.springframework.security.web.context.SecurityContextHolderFilter@14202bc6, org.springframework.security.web.header.HeaderWriterFilter@fd94ef3, org.springframework.web.filter.CorsFilter@6b4597f3, org.springframework.security.web.csrf.CsrfFilter@31ff6c18, org.springframework.security.web.authentication.logout.LogoutFilter@349f3741, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@798f0dad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21454673, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@583dcf2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@718cc40e, org.springframework.security.web.access.ExceptionTranslationFilter@7d1cd8a9, org.springframework.security.web.access.intercept.AuthorizationFilter@21f18975]
+2024-02-12T13:10:53.503+09:00  INFO 38616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-12T13:10:53.629+09:00  INFO 38616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path ''
+2024-02-12T13:10:53.661+09:00  INFO 38616 --- [restartedMain] com.dailyReport.DailyReportApplication   : Started DailyReportApplication in 27.914 seconds (process running for 29.744)
+2024-02-12T13:56:19.770+09:00  INFO 38616 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-12T13:56:19.818+09:00  INFO 38616 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-12T13:56:19.878+09:00  INFO 38616 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2024-02-12T13:56:22.188+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707713782188 | took 30ms | statement | connection 5| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:22.572+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707713782572 | took 56ms | statement | connection 5| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:22.989+09:00  INFO 38616 --- [http-nio-8000-exec-1] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:22.990+09:00  INFO 38616 --- [http-nio-8000-exec-1] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:23.020+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707713783020 | took 4ms | commit | connection 5| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:23.132+09:00  INFO 38616 --- [http-nio-8000-exec-1] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:23.135+09:00  INFO 38616 --- [http-nio-8000-exec-1] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:23.372+09:00  INFO 38616 --- [http-nio-8000-exec-1] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:31.824+09:00  WARN 38616 --- [http-nio-8000-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [331] milliseconds.
+2024-02-12T13:56:39.095+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713799095 | took 28ms | statement | connection 6| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=3;
+2024-02-12T13:56:39.109+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713799109 | took 2ms | commit | connection 6| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:41.648+09:00  INFO 38616 --- [http-nio-8000-exec-3] p6spy                                    : #1707713801648 | took 2ms | statement | connection 7| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:41.652+09:00  INFO 38616 --- [http-nio-8000-exec-3] p6spy                                    : #1707713801652 | took 1ms | statement | connection 7| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:41.662+09:00  INFO 38616 --- [http-nio-8000-exec-3] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:41.662+09:00  INFO 38616 --- [http-nio-8000-exec-3] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:41.663+09:00  INFO 38616 --- [http-nio-8000-exec-3] p6spy                                    : #1707713801663 | took 0ms | commit | connection 7| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:41.664+09:00  INFO 38616 --- [http-nio-8000-exec-3] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:41.664+09:00  INFO 38616 --- [http-nio-8000-exec-3] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:41.665+09:00  INFO 38616 --- [http-nio-8000-exec-3] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:43.098+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707713803098 | took 1ms | statement | connection 8| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=57;
+2024-02-12T13:56:43.101+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707713803101 | took 0ms | commit | connection 8| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:45.142+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713805142 | took 0ms | statement | connection 9| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:45.174+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713805174 | took 1ms | statement | connection 9| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:45.183+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:45.184+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:45.185+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713805185 | took 0ms | commit | connection 9| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:45.186+09:00  INFO 38616 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:45.187+09:00  INFO 38616 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:45.187+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:46.908+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713806908 | took 2ms | statement | connection 10| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=3;
+2024-02-12T13:56:46.915+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713806915 | took 1ms | commit | connection 10| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:48.463+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707713808463 | took 1ms | statement | connection 11| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:48.468+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707713808468 | took 1ms | statement | connection 11| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:48.481+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:48.482+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:48.494+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707713808494 | took 1ms | commit | connection 11| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:48.499+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:48.502+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:48.503+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:49.408+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707713809408 | took 1ms | statement | connection 12| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=54;
+2024-02-12T13:56:49.411+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707713809411 | took 0ms | commit | connection 12| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:50.529+09:00  INFO 38616 --- [http-nio-8000-exec-3] p6spy                                    : #1707713810529 | took 1ms | statement | connection 13| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:50.536+09:00  INFO 38616 --- [http-nio-8000-exec-3] p6spy                                    : #1707713810536 | took 1ms | statement | connection 13| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:50.545+09:00  INFO 38616 --- [http-nio-8000-exec-3] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:50.546+09:00  INFO 38616 --- [http-nio-8000-exec-3] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:50.548+09:00  INFO 38616 --- [http-nio-8000-exec-3] p6spy                                    : #1707713810547 | took 0ms | commit | connection 13| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:50.549+09:00  INFO 38616 --- [http-nio-8000-exec-3] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:50.550+09:00  INFO 38616 --- [http-nio-8000-exec-3] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:50.550+09:00  INFO 38616 --- [http-nio-8000-exec-3] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:52.025+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707713812025 | took 1ms | statement | connection 14| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=57;
+2024-02-12T13:56:52.027+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707713812027 | took 0ms | commit | connection 14| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:53.033+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713813033 | took 2ms | statement | connection 15| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:53.040+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713813040 | took 1ms | statement | connection 15| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:53.045+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:53.046+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:53.046+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707713813046 | took 0ms | commit | connection 15| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:53.047+09:00  INFO 38616 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:53.048+09:00  INFO 38616 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:53.049+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:53.813+09:00  INFO 38616 --- [http-nio-8000-exec-2] p6spy                                    : #1707713813813 | took 1ms | statement | connection 16| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=952;
+2024-02-12T13:56:53.817+09:00  INFO 38616 --- [http-nio-8000-exec-2] p6spy                                    : #1707713813816 | took 0ms | commit | connection 16| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:55.446+09:00  INFO 38616 --- [http-nio-8000-exec-5] p6spy                                    : #1707713815446 | took 3ms | statement | connection 17| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:55.450+09:00  INFO 38616 --- [http-nio-8000-exec-5] p6spy                                    : #1707713815450 | took 1ms | statement | connection 17| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:55.455+09:00  INFO 38616 --- [http-nio-8000-exec-5] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:55.456+09:00  INFO 38616 --- [http-nio-8000-exec-5] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:55.457+09:00  INFO 38616 --- [http-nio-8000-exec-5] p6spy                                    : #1707713815457 | took 0ms | commit | connection 17| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:55.457+09:00  INFO 38616 --- [http-nio-8000-exec-5] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:55.457+09:00  INFO 38616 --- [http-nio-8000-exec-5] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:55.458+09:00  INFO 38616 --- [http-nio-8000-exec-5] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:56:59.716+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713819716 | took 1ms | statement | connection 18| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:56:59.724+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713819724 | took 1ms | statement | connection 18| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:56:59.730+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:56:59.730+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T13:56:59.732+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713819732 | took 0ms | commit | connection 18| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:56:59.734+09:00  INFO 38616 --- [http-nio-8000-exec-4] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:56:59.735+09:00  INFO 38616 --- [http-nio-8000-exec-4] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:56:59.736+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T13:57:04.038+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707713824038 | took 0ms | statement | connection 19| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:57:04.043+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707713824043 | took 1ms | statement | connection 19| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 10 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:57:04.045+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:57:04.046+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  0 
+2024-02-12T13:57:04.048+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707713824048 | took 1ms | commit | connection 19| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:57:04.049+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:57:04.051+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:57:04.057+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.controller.DailyReportsController    : **************PageMaker(page=2, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 2 of 1 containing UNKNOWN instances)
+2024-02-12T13:57:10.272+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713830272 | took 1ms | statement | connection 20| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T13:57:10.277+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713830277 | took 1ms | statement | connection 20| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 20 ) WHERE ROWNUM <= 10 ;
+2024-02-12T13:57:10.280+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T13:57:10.281+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  0 
+2024-02-12T13:57:10.282+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707713830282 | took 0ms | commit | connection 20| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T13:57:10.282+09:00  INFO 38616 --- [http-nio-8000-exec-4] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T13:57:10.284+09:00  INFO 38616 --- [http-nio-8000-exec-4] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T13:57:10.285+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.controller.DailyReportsController    : **************PageMaker(page=3, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 3 of 1 containing UNKNOWN instances)
+2024-02-12T14:17:45.781+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707715065769 | took 96ms | statement | connection 21| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T14:17:47.047+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707715067047 | took 93ms | statement | connection 21| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 20 ) WHERE ROWNUM <= 10 ;
+2024-02-12T14:17:47.314+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T14:17:47.315+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  0 
+2024-02-12T14:17:47.369+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707715067369 | took 2ms | commit | connection 21| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:17:47.424+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T14:17:47.429+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T14:17:47.542+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.controller.DailyReportsController    : **************PageMaker(page=3, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 3 of 1 containing UNKNOWN instances)
+2024-02-12T14:17:52.187+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715072187 | took 1ms | statement | connection 22| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T14:17:52.199+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715072199 | took 1ms | statement | connection 22| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 10 ) WHERE ROWNUM <= 10 ;
+2024-02-12T14:17:52.286+09:00  INFO 38616 --- [http-nio-8000-exec-10] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T14:17:52.287+09:00  INFO 38616 --- [http-nio-8000-exec-10] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  0 
+2024-02-12T14:17:52.288+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715072288 | took 0ms | commit | connection 22| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:17:52.289+09:00  INFO 38616 --- [http-nio-8000-exec-10] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T14:17:52.290+09:00  INFO 38616 --- [http-nio-8000-exec-10] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T14:17:52.292+09:00  INFO 38616 --- [http-nio-8000-exec-10] c.d.controller.DailyReportsController    : **************PageMaker(page=2, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 2 of 1 containing UNKNOWN instances)
+2024-02-12T14:17:55.794+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707715075794 | took 2ms | statement | connection 23| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T14:17:55.807+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707715075807 | took 9ms | statement | connection 23| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T14:17:55.893+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T14:17:55.893+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T14:17:55.895+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707715075895 | took 0ms | commit | connection 23| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:17:55.896+09:00  INFO 38616 --- [http-nio-8000-exec-4] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T14:17:55.897+09:00  INFO 38616 --- [http-nio-8000-exec-4] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T14:17:55.898+09:00  INFO 38616 --- [http-nio-8000-exec-4] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T14:18:09.820+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707715089820 | took 1ms | statement | connection 24| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T14:18:09.832+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707715089831 | took 1ms | statement | connection 24| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T14:18:09.838+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T14:18:09.838+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T14:18:09.841+09:00  INFO 38616 --- [http-nio-8000-exec-7] p6spy                                    : #1707715089841 | took 2ms | commit | connection 24| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:18:09.844+09:00  INFO 38616 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T14:18:09.845+09:00  INFO 38616 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T14:18:09.846+09:00  INFO 38616 --- [http-nio-8000-exec-7] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T14:26:51.681+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707715611197 | took 90ms | statement | connection 25| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=3;
+2024-02-12T14:26:53.772+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707715613772 | took 7ms | commit | connection 25| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:27:10.705+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715630705 | took 5ms | statement | connection 26| url jdbc:oracle:thin:@localhost:1521/orcl
+select max(dr1_0.report_id) from daily_reports dr1_0
+select max(dr1_0.report_id) from daily_reports dr1_0;
+2024-02-12T14:27:10.740+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715630740 | took 1ms | commit | connection 26| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:27:10.745+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715630745 | took 2ms | statement | connection 27| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=952;
+2024-02-12T14:27:10.750+09:00  INFO 38616 --- [http-nio-8000-exec-10] p6spy                                    : #1707715630750 | took 0ms | commit | connection 27| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:39:44.771+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707716384770 | took 17ms | statement | connection 28| url jdbc:oracle:thin:@localhost:1521/orcl
+select max(dr1_0.report_id) from daily_reports dr1_0
+select max(dr1_0.report_id) from daily_reports dr1_0;
+2024-02-12T14:39:44.818+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707716384818 | took 0ms | commit | connection 28| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:39:44.918+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707716384918 | took 17ms | statement | connection 29| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=952;
+2024-02-12T14:39:44.967+09:00  INFO 38616 --- [http-nio-8000-exec-4] p6spy                                    : #1707716384967 | took 0ms | commit | connection 29| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:39:56.809+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716396809 | took 7ms | statement | connection 30| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=952;
+2024-02-12T14:39:56.926+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716396926 | took 0ms | commit | connection 30| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:39:57.043+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716397043 | took 1ms | statement | connection 31| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=952;
+2024-02-12T14:39:57.045+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716397045 | took 0ms | commit | connection 31| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:40:15.353+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716415353 | took 286ms | statement | connection 32| url jdbc:oracle:thin:@localhost:1521/orcl
+select daily_reports_seq.nextval from dual
+select daily_reports_seq.nextval from dual;
+2024-02-12T14:40:15.526+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716415526 | took 43ms | statement | connection 32| url jdbc:oracle:thin:@localhost:1521/orcl
+insert into daily_reports (category,description,program_system,report_date,source_path,report_id) values (?,?,?,?,?,?)
+insert into daily_reports (category,description,program_system,report_date,source_path,report_id) values ('CIM','교육을 했습니다.','교육','2024-02-07T00:00:00.000+0900','bbbb ',1952);
+2024-02-12T14:40:15.532+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716415532 | took 0ms | commit | connection 32| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:40:15.557+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716415557 | took 2ms | statement | connection 33| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T14:40:15.574+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716415574 | took 3ms | statement | connection 33| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T14:40:15.586+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long totalCount  6 
+2024-02-12T14:40:15.587+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  6 
+2024-02-12T14:40:15.590+09:00  INFO 38616 --- [http-nio-8000-exec-8] p6spy                                    : #1707716415590 | took 0ms | commit | connection 33| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:40:15.593+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T14:40:15.593+09:00  INFO 38616 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 6 
+2024-02-12T14:40:15.598+09:00  INFO 38616 --- [http-nio-8000-exec-8] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=6, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T14:40:17.879+09:00  INFO 38616 --- [http-nio-8000-exec-9] p6spy                                    : #1707716417879 | took 2ms | statement | connection 34| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=1952;
+2024-02-12T14:40:17.882+09:00  INFO 38616 --- [http-nio-8000-exec-9] p6spy                                    : #1707716417882 | took 0ms | commit | connection 34| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:40:23.575+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707716423575 | took 1ms | statement | connection 35| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=1952;
+2024-02-12T14:40:23.631+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707716423631 | took 15ms | statement | connection 35| url jdbc:oracle:thin:@localhost:1521/orcl
+delete from daily_reports where report_id=?
+delete from daily_reports where report_id=1952;
+2024-02-12T14:40:23.646+09:00  INFO 38616 --- [http-nio-8000-exec-6] p6spy                                    : #1707716423646 | took 4ms | commit | connection 35| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:40:25.168+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707716425168 | took 1ms | statement | connection 36| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T14:40:25.178+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707716425178 | took 3ms | statement | connection 36| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T14:40:25.189+09:00  INFO 38616 --- [http-nio-8000-exec-1] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T14:40:25.191+09:00  INFO 38616 --- [http-nio-8000-exec-1] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T14:40:25.192+09:00  INFO 38616 --- [http-nio-8000-exec-1] p6spy                                    : #1707716425192 | took 0ms | commit | connection 36| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T14:40:25.194+09:00  INFO 38616 --- [http-nio-8000-exec-1] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T14:40:25.194+09:00  INFO 38616 --- [http-nio-8000-exec-1] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T14:40:25.195+09:00  INFO 38616 --- [http-nio-8000-exec-1] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T14:40:44.574+09:00  WARN 38616 --- [http-nio-8000-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-02-12T14:57:33.262+09:00  INFO 38616 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12T14:57:34.125+09:00  INFO 38616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-12T14:57:34.766+09:00  INFO 38616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-12T14:58:11.099+09:00  INFO 9396 --- [restartedMain] com.dailyReport.DailyReportApplication   : Starting DailyReportApplication using Java 17.0.7 with PID 9396 (C:\Users\subin\Desktop\daily-report\out\production\classes started by subin in C:\Users\subin\Desktop\daily-report)
+2024-02-12T14:58:11.108+09:00 DEBUG 9396 --- [restartedMain] com.dailyReport.DailyReportApplication   : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-12T14:58:11.111+09:00  INFO 9396 --- [restartedMain] com.dailyReport.DailyReportApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T14:58:12.290+09:00  INFO 9396 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\subin\.gradle\caches\modules-2\files-2.1\com.oracle.database.nls\orai18n\23.3.0.23.09\7ce248ac15b588e30627ba2585654bfb7ce27e9d\orai18n-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-mapping.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-utility.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-collation.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-translation.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-net.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-servlet.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-lcsd.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/orai18n-tools.jar,file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.nls/orai18n/23.3.0.23.09/7ce248ac15b588e30627ba2585654bfb7ce27e9d/gdk_custom.jar
+2024-02-12T14:58:12.292+09:00  INFO 9396 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\subin\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/subin/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-02-12T14:58:12.292+09:00  INFO 9396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-12T14:58:12.293+09:00  INFO 9396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-12T14:58:16.031+09:00  INFO 9396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-12T14:58:16.294+09:00  INFO 9396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 222 ms. Found 1 JPA repository interface.
+2024-02-12T14:58:19.792+09:00  INFO 9396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-02-12T14:58:19.845+09:00  INFO 9396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-12T14:58:19.846+09:00  INFO 9396 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-12T14:58:20.271+09:00  INFO 9396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-12T14:58:20.272+09:00  INFO 9396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7976 ms
+2024-02-12T14:58:21.078+09:00  INFO 9396 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-12T14:58:22.214+09:00  INFO 9396 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6a335afb
+2024-02-12T14:58:22.222+09:00  INFO 9396 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-12T14:58:22.255+09:00  INFO 9396 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521/orcl'
+2024-02-12T14:58:22.769+09:00  INFO 9396 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-12T14:58:23.078+09:00  INFO 9396 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-12T14:58:23.246+09:00  INFO 9396 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-12T14:58:24.647+09:00  INFO 9396 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-12T14:58:25.134+09:00  WARN 9396 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-02-12T14:58:25.150+09:00  WARN 9396 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-12T14:58:26.316+09:00  INFO 9396 --- [restartedMain] p6spy                                    : #1707717506316 | took 43ms | statement | connection 2| url jdbc:oracle:thin:@localhost:1521/orcl
+select * from all_sequences
+select * from all_sequences;
+2024-02-12T14:58:28.728+09:00  INFO 9396 --- [restartedMain] p6spy                                    : #1707717508728 | took 119ms | statement | connection 3| url jdbc:oracle:thin:@localhost:1521/orcl
+create global temporary table HTE_daily_reports(rn_ number(10,0) not null, report_date timestamp(6), report_id number(19,0), category varchar2(100 char), program_system varchar2(200 char), source_path varchar2(500 char), description varchar2(1000 char), primary key (rn_)) on commit delete rows
+create global temporary table HTE_daily_reports(rn_ number(10,0) not null, report_date timestamp(6), report_id number(19,0), category varchar2(100 char), program_system varchar2(200 char), source_path varchar2(500 char), description varchar2(1000 char), primary key (rn_)) on commit delete rows;
+2024-02-12T14:58:29.241+09:00  INFO 9396 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-12T14:58:29.359+09:00  INFO 9396 --- [restartedMain] p6spy                                    : #1707717509359 | took 4ms | statement | connection 4| url jdbc:oracle:thin:@localhost:1521/orcl
+select * from all_sequences
+select * from all_sequences;
+2024-02-12T14:58:30.141+09:00  INFO 9396 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12T14:58:31.564+09:00  INFO 9396 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-12T14:58:36.515+09:00  WARN 9396 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7cba4b1b-15e1-4084-a51c-5d746da8a0e1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-02-12T14:58:49.623+09:00  INFO 9396 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ec5f76b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a39d270, org.springframework.security.web.context.SecurityContextHolderFilter@2135f42e, org.springframework.security.web.header.HeaderWriterFilter@5a59243f, org.springframework.web.filter.CorsFilter@506bf86f, org.springframework.security.web.csrf.CsrfFilter@6dd9f86e, org.springframework.security.web.authentication.logout.LogoutFilter@7c996755, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f00a17d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d976586, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25dd891, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a6f00ca, org.springframework.security.web.access.ExceptionTranslationFilter@7d0b43d7, org.springframework.security.web.access.intercept.AuthorizationFilter@1d17121]
+2024-02-12T14:58:58.870+09:00  INFO 9396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-12T14:58:59.322+09:00  INFO 9396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path ''
+2024-02-12T14:58:59.466+09:00  INFO 9396 --- [restartedMain] com.dailyReport.DailyReportApplication   : Started DailyReportApplication in 50.655 seconds (process running for 53.402)
+2024-02-12T15:49:09.630+09:00  WARN 9396 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m47s155ms142µs600ns).
+2024-02-12T15:50:50.386+09:00  INFO 9396 --- [http-nio-8000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-12T15:50:50.410+09:00  INFO 9396 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-12T15:50:50.561+09:00  INFO 9396 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 149 ms
+2024-02-12T15:50:57.510+09:00  WARN 9396 --- [http-nio-8000-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [291] milliseconds.
+2024-02-12T15:54:07.443+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720847437 | took 42ms | statement | connection 5| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T15:54:07.957+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720847957 | took 32ms | statement | connection 5| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T15:54:08.272+09:00  INFO 9396 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T15:54:08.273+09:00  INFO 9396 --- [http-nio-8000-exec-8] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T15:54:08.301+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720848301 | took 7ms | commit | connection 5| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:08.334+09:00  INFO 9396 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T15:54:08.336+09:00  INFO 9396 --- [http-nio-8000-exec-8] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T15:54:08.358+09:00  INFO 9396 --- [http-nio-8000-exec-8] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T15:54:15.049+09:00  INFO 9396 --- [http-nio-8000-exec-3] p6spy                                    : #1707720855049 | took 7ms | statement | connection 6| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=3;
+2024-02-12T15:54:15.061+09:00  INFO 9396 --- [http-nio-8000-exec-3] p6spy                                    : #1707720855061 | took 0ms | commit | connection 6| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:17.317+09:00  INFO 9396 --- [http-nio-8000-exec-9] p6spy                                    : #1707720857317 | took 1ms | statement | connection 7| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T15:54:17.323+09:00  INFO 9396 --- [http-nio-8000-exec-9] p6spy                                    : #1707720857323 | took 2ms | statement | connection 7| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T15:54:17.332+09:00  INFO 9396 --- [http-nio-8000-exec-9] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T15:54:17.333+09:00  INFO 9396 --- [http-nio-8000-exec-9] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T15:54:17.336+09:00  INFO 9396 --- [http-nio-8000-exec-9] p6spy                                    : #1707720857336 | took 0ms | commit | connection 7| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:17.337+09:00  INFO 9396 --- [http-nio-8000-exec-9] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T15:54:17.338+09:00  INFO 9396 --- [http-nio-8000-exec-9] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T15:54:17.338+09:00  INFO 9396 --- [http-nio-8000-exec-9] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T15:54:32.712+09:00  INFO 9396 --- [http-nio-8000-exec-5] p6spy                                    : #1707720872712 | took 2ms | statement | connection 8| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T15:54:32.873+09:00  INFO 9396 --- [http-nio-8000-exec-5] p6spy                                    : #1707720872873 | took 2ms | statement | connection 8| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T15:54:32.933+09:00  INFO 9396 --- [http-nio-8000-exec-5] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T15:54:32.934+09:00  INFO 9396 --- [http-nio-8000-exec-5] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T15:54:32.935+09:00  INFO 9396 --- [http-nio-8000-exec-5] p6spy                                    : #1707720872935 | took 0ms | commit | connection 8| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:32.936+09:00  INFO 9396 --- [http-nio-8000-exec-5] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T15:54:32.937+09:00  INFO 9396 --- [http-nio-8000-exec-5] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T15:54:32.938+09:00  INFO 9396 --- [http-nio-8000-exec-5] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T15:54:39.759+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720879759 | took 5ms | statement | connection 9| url jdbc:oracle:thin:@localhost:1521/orcl
+select max(dr1_0.report_id) from daily_reports dr1_0
+select max(dr1_0.report_id) from daily_reports dr1_0;
+2024-02-12T15:54:39.762+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720879762 | took 0ms | commit | connection 9| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:39.768+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720879768 | took 2ms | statement | connection 10| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=952;
+2024-02-12T15:54:39.772+09:00  INFO 9396 --- [http-nio-8000-exec-8] p6spy                                    : #1707720879772 | took 0ms | commit | connection 10| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:40.985+09:00  INFO 9396 --- [http-nio-8000-exec-2] p6spy                                    : #1707720880985 | took 1ms | statement | connection 11| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T15:54:40.993+09:00  INFO 9396 --- [http-nio-8000-exec-2] p6spy                                    : #1707720880992 | took 1ms | statement | connection 11| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T15:54:41.006+09:00  INFO 9396 --- [http-nio-8000-exec-2] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T15:54:41.006+09:00  INFO 9396 --- [http-nio-8000-exec-2] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T15:54:41.007+09:00  INFO 9396 --- [http-nio-8000-exec-2] p6spy                                    : #1707720881007 | took 0ms | commit | connection 11| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T15:54:41.009+09:00  INFO 9396 --- [http-nio-8000-exec-2] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T15:54:41.011+09:00  INFO 9396 --- [http-nio-8000-exec-2] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T15:54:41.012+09:00  INFO 9396 --- [http-nio-8000-exec-2] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T16:04:31.833+09:00  INFO 9396 --- [http-nio-8000-exec-10] p6spy                                    : #1707721471830 | took 26ms | statement | connection 12| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T16:04:31.929+09:00  INFO 9396 --- [http-nio-8000-exec-10] p6spy                                    : #1707721471929 | took 11ms | statement | connection 12| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T16:04:31.987+09:00  INFO 9396 --- [http-nio-8000-exec-10] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T16:04:31.988+09:00  INFO 9396 --- [http-nio-8000-exec-10] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T16:04:31.992+09:00  INFO 9396 --- [http-nio-8000-exec-10] p6spy                                    : #1707721471992 | took 0ms | commit | connection 12| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T16:04:31.999+09:00  INFO 9396 --- [http-nio-8000-exec-10] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T16:04:32.001+09:00  INFO 9396 --- [http-nio-8000-exec-10] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T16:04:32.008+09:00  INFO 9396 --- [http-nio-8000-exec-10] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T16:11:52.689+09:00  INFO 9396 --- [http-nio-8000-exec-4] p6spy                                    : #1707721912689 | took 5ms | statement | connection 13| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=3;
+2024-02-12T16:11:52.698+09:00  INFO 9396 --- [http-nio-8000-exec-4] p6spy                                    : #1707721912698 | took 0ms | commit | connection 13| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T16:11:53.758+09:00  INFO 9396 --- [http-nio-8000-exec-7] p6spy                                    : #1707721913758 | took 1ms | statement | connection 14| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T16:11:53.764+09:00  INFO 9396 --- [http-nio-8000-exec-7] p6spy                                    : #1707721913764 | took 1ms | statement | connection 14| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T16:11:53.773+09:00  INFO 9396 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T16:11:53.774+09:00  INFO 9396 --- [http-nio-8000-exec-7] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T16:11:53.775+09:00  INFO 9396 --- [http-nio-8000-exec-7] p6spy                                    : #1707721913775 | took 0ms | commit | connection 14| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T16:11:53.776+09:00  INFO 9396 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T16:11:53.778+09:00  INFO 9396 --- [http-nio-8000-exec-7] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T16:11:53.778+09:00  INFO 9396 --- [http-nio-8000-exec-7] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T16:11:57.320+09:00  INFO 9396 --- [http-nio-8000-exec-2] p6spy                                    : #1707721917320 | took 1ms | statement | connection 15| url jdbc:oracle:thin:@localhost:1521/orcl
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=?
+select dr1_0.report_id,dr1_0.category,dr1_0.description,dr1_0.program_system,dr1_0.report_date,dr1_0.source_path from daily_reports dr1_0 where dr1_0.report_id=54;
+2024-02-12T16:11:57.363+09:00  INFO 9396 --- [http-nio-8000-exec-2] p6spy                                    : #1707721917363 | took 0ms | commit | connection 15| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T16:11:58.615+09:00  INFO 9396 --- [http-nio-8000-exec-1] p6spy                                    : #1707721918615 | took 0ms | statement | connection 16| url jdbc:oracle:thin:@localhost:1521/orcl
+select count(*) from daily_reports dr1_0
+select count(*) from daily_reports dr1_0;
+2024-02-12T16:11:58.620+09:00  INFO 9396 --- [http-nio-8000-exec-1] p6spy                                    : #1707721918620 | took 2ms | statement | connection 16| url jdbc:oracle:thin:@localhost:1521/orcl
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= ? ) WHERE ROWNUM <= ? 
+ SELECT * FROM ( SELECT * FROM ( SELECT ROWNUM AS SEQ, aa.* FROM    ( SELECT dr.* FROM daily_reports dr ORDER BY report_id ASC ) aa )  WHERE SEQ >= 0 ) WHERE ROWNUM <= 10 ;
+2024-02-12T16:11:58.631+09:00  INFO 9396 --- [http-nio-8000-exec-1] c.d.service.DailyReportsService          : ############=> Long totalCount  5 
+2024-02-12T16:11:58.632+09:00  INFO 9396 --- [http-nio-8000-exec-1] c.d.service.DailyReportsService          : ############=> Long dailyReportsDtoList  5 
+2024-02-12T16:11:58.633+09:00  INFO 9396 --- [http-nio-8000-exec-1] p6spy                                    : #1707721918633 | took 0ms | commit | connection 16| url jdbc:oracle:thin:@localhost:1521/orcl
+
+;
+2024-02-12T16:11:58.634+09:00  INFO 9396 --- [http-nio-8000-exec-1] com.dailyReport.utils.PageMaker          : ################################tempEndPage 1
+2024-02-12T16:11:58.634+09:00  INFO 9396 --- [http-nio-8000-exec-1] com.dailyReport.utils.PageMaker          : ################################pageMaker totalCount 5 
+2024-02-12T16:11:58.635+09:00  INFO 9396 --- [http-nio-8000-exec-1] c.d.controller.DailyReportsController    : **************PageMaker(page=1, pageSize=10, pageStart=0, totalCount=5, startPage=1, endPage=1, prev=false, next=false, last=false, displayPageNum=5, tempEndPage=1, searchQuery=null, pageObject=Page 1 of 1 containing com.dailyReport.dto.DailyReportsDto instances)
+2024-02-12T16:19:41.497+09:00  WARN 9396 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s476ms348µs900ns).
+2024-02-12T23:17:20.977+09:00  WARN 9396 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h5m3s555ms517µs600ns).
+2024-02-12T23:26:41.229+09:00  INFO 9396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12T23:26:41.954+09:00  INFO 9396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-12T23:26:42.268+09:00  INFO 9396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

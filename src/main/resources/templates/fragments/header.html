@@ -1,0 +1,41 @@
+<!--웹 페이지의 헤더 부분을 정의-->
+<!--HTML5 문서를 정의-->
+<!DOCTYPE html>
+<!--Thymeleaf 템플릿 기능 사용-->
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<div th:fragment="header">
+    <!--Bootstrap 클래스를 사용하여 어두운 테마의 네비게이션 바 생성-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!--작은 화면에서 네비게이션 바를 토글(보이기/숨기기)할 수 있는 버튼-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--"Daily Report"라는 텍스트를 메인 페이지(`/`)로 링크-->
+        <a class="navbar-brand" href="/">Daily Report</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <!--네비게이션 바 내부 각 메뉴 정의, 페이지로의 링크 제공-->
+                <li class="nav-item" >
+                    <a class="nav-link" href="/dailyReports/write">보고서 작성</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="/dailyReports/list">보고서 목록</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/dailyReports/detail">보고서 상세 조회</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+</div>
+
+</html>

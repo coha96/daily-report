@@ -1,0 +1,45 @@
+<!--웹 페이지 레이아웃 템플릿 / 기본 레이아웃 구조 정의-->
+<!DOCTYPE html>
+
+<!--Thymeleaf 템플릿, 레이아웃 기능을 사용할 수 있는 기능-->
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title>Daily Report</title>
+
+    <!-- CSS only -->
+    <!--Bootstrap 프레임워크의 CSS를 웹 페이지에 포함. Bootstrap은 웹 개발에 널리 사용되는 프론트엔드 프레임워크로, 반응형 디자인, 버튼, 폼 등 다양한 UI 구성 요소 제공-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link th:href="@{/css/layout1.css}" rel="stylesheet">  <!--layout.css 참조, 사용자 지정 스타일 정의-->
+    <th:block layout:fragment="css"></th:block>
+
+    <!-- JS,  and jQuery -->
+    <!-- jQuery: JavaScript 라이브러리 / DOM 조작, 이벤트 핸들링, AJAX 요청 등을 쉽게 수행 가능-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!--Popper.js: 툴팁이나 팝오버와 같은 floating UI를 생성할 때 사용되는 라이브러리 / Bootstrap과 함께 사용-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!--Bootstrap의 JavaScript 구성 요소를 포함-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script th:src="@{/js/main.js}"></script>
+    <th:block layout:fragment="script"></th:block>
+
+</head>
+<body>
+
+
+
+<div th:replace="~{fragments/header::header}" ></div>
+
+<div th:layout:fragment="content" class="content"></div>
+
+<div th:replace="~{fragments/footer::footer}" ></div>
+
+
+
+</body>
+</html>
